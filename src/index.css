@@ -1,0 +1,20 @@
+body {
+  background-color: #020c1b;
+  color: #fff;
+  font-family: 'Quicksand', sans-serif;
+  min-height: 100vh;
+  /* Ensures it covers the entire screen height */
+  width: 100vw;
+  /*Ensures it covers the entire screen width*/
+  margin: 0;
+  /*Removes default body margins*/
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}

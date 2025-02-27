@@ -1,0 +1,31 @@
+.my-button {
+  font-size: 18px;
+  border-radius: 10px;
+  border: 2px solid;
+  box-shadow: 4px 4px #bbb;
+  transition: all 0.1s ease-out;
+  padding: 15px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  flex-grow: 1;
+  /* Permite que los botones se expandan igualmente */
+}
+
+.my-button,
+a {
+  text-decoration: none;
+}
+
+.my-button:active {
+  box-shadow: none;
+  transform: translate(4px, 4px);
+}
+
+.button-icon {
+  width: 40px;
+  /* Ajusta el tamaño del icono */
+  height: 40px;
+  margin-right: 4px;
+  /* Espacio entre el icono y el texto */
+}

@@ -1,0 +1,67 @@
+.avatar-container {
+  display: flex;
+  flex-direction: column;
+  /* Alinea los elementos verticalmente */
+  align-items: center;
+  /* Centra los elementos horizontalmente */
+  margin-top: 20px;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  /* Espacio entre el avatar y el título */
+}
+
+.avatar-container h1 {
+  /* Estilos para el h1 dentro del contenedor */
+  text-align: center;
+  /* Asegura que el texto esté centrado */
+}
+
+.avatar-wrapper {
+  position: relative;
+  /* Establece el contenedor como referencia */
+  display: inline-block;
+  /* o block, dependiendo de cómo quieras que se comporte */
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.verified-icon {
+  position: absolute;
+  /* Posiciona el icono absolutamente */
+  bottom: 10px;
+  /* Lo coloca en la parte inferior */
+  right: 0px;
+  /* Lo coloca en la parte derecha */
+  width: 25px;
+  /* Ajusta el tamaño del icono */
+  height: 25px;
+  /* Ajusta el tamaño del icono */
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center; /* Centra los íconos */
+  gap: 15px; /* Espacio entre íconos */
+  padding: 13px 0;
+}
+
+.social-icons a img {
+  width: 30px; /* Tamaño de los íconos */
+  height: 30px;
+  transition: transform 0.3s ease;
+}
+
+.social-icons a img:hover {
+  transform: scale(1.2); /* Efecto de zoom al pasar el mouse */
+}
